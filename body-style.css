@@ -1,6 +1,7 @@
 html{
-	font-family:Ubuntu,Play,Times,Arial;
+	font-family:Capture it,Ubuntu,Play,Times,Arial;
 	font-size:20px;
+	color:#FFFFFF;
 }
 #header-div{
 	position:absolute;
@@ -8,7 +9,7 @@ html{
 	height:100px;
 	left:0px;
 	top:0px;
-	background-color:#FFD464;
+	background-color:#000000;
 }
 body{
 	margin:0px;
@@ -16,7 +17,7 @@ body{
 }
 #header_links{
 	text-align:right;
-	position:absolute;
+	position:relative;
 	bottom:8px;
 	right:8px;
 }
@@ -27,7 +28,7 @@ body{
 	left:0px;
 	top:100px;
 	background-color:#0E5296;
-	border:1px solid black;
+	border:1px solid grey;
 }
 #right-sidebar-div{
 	position:absolute;
@@ -38,26 +39,49 @@ body{
 	background-color:#0E5296;
 	border:1px solid black;
 }
-#footer-div{
+#link-div{
 	position:absolute;
 	width:100%;
-	height:100px;
-	bottom:-108px;
-	border:1px solid black;
-	background-color:#0E5296;
+	height:50px;
+	left:-1px;
+	top:100px;
+	border:1px solid grey;
+	background-color:#000000;
+}
+a{
+	text-decoration:none;
 }
 #body-div{
 	position:absolute;
-	bottom:-7px;
-	top:100px;
-	left:0px;
+	top:152px;
+	left:-1px;
 	right:0px;
-	background-color:#639BF1;
-	border:1px solid black;
+	bottom:0px;
+	height:auto;
 }
-#inline_UL{
-
+#overlay{
+	position: relative;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	background-color: #fff;
+	border: 1px solid #666;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 100px;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+	font-size:25px;
 }
-#link_style{
-
+#cat_text{
+	position:relative;
+	width: 300px;
+}
+#bibi_too_fat{
+	position:absolute;
+	width:100%;
+	height:100%;
+	bottom:0px;
 }
