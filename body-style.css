@@ -1,5 +1,5 @@
 html{
-	font-family:Capture it,Ubuntu,Play,Times,Arial;
+	font-family:Impact,Gadget,Capture it,Ubuntu,Play,Times,Arial;
 	font-size:20px;
 	color:#FFFFFF;
 }
@@ -10,6 +10,12 @@ html{
 	left:0px;
 	top:0px;
 	background-color:#000000;
+}
+a{
+	color:#FFFFFF;
+}
+a:visited{
+	color:purple;
 }
 body{
 	margin:0px;
@@ -57,7 +63,9 @@ a{
 	left:-1px;
 	right:0px;
 	bottom:0px;
+	width:100%;
 	height:auto;
+	height:100%;
 }
 #overlay{
 	position: relative;
@@ -83,5 +91,9 @@ a{
 	position:absolute;
 	width:100%;
 	height:100%;
+	max-width:100%;
 	bottom:0px;
+}
+#link_style{
+	margin-left:5px;
 }
