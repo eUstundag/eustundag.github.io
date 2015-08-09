@@ -33,6 +33,7 @@ map{
 	/*bottom:-8px;
 	top:-8px;*/
 	right:0;
+	z-index:-1;
 }
 .container {
     width: 100%;
@@ -49,3 +50,6 @@ map{
     max-width: 100%;
     width: auto;
 }​
+#about_pos {
+	position:absolute;
+}
