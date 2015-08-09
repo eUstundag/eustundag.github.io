@@ -2,109 +2,50 @@ html{
 	font-family:Impact,Gadget,Capture it,Ubuntu,Play,Times,Arial;
 	font-size:20px;
 	color:#FFFFFF;
-}
-#header-div{
-	position:absolute;
-	width:100%;
-	height:100px;
-	left:0px;
-	top:0px;
-	background-color:#000000;
-}
-a{
-	color:#FFFFFF;
-}
-a:visited{
-	color:#FFFFFF;
+	margin:0px;
 }
 body{
-	margin:0px;
-	display:block;
+	margin:0 auto;
 }
-#header_links{
-	text-align:right;
-	position:relative;
-	bottom:8px;
-	right:8px;
+div{
+	margin: 0 auto;
 }
-#left-sidebar-div{
-	position:absolute;
-	width:75px;
-	height:100%;
-	left:0px;
-	top:100px;
-	background-color:#0E5296;
-	border:1px solid grey;
-}
-#right-sidebar-div{
-	position:absolute;
-	width:75px;
-	height:100%;
-	right:0px;
-	top:100px;
-	background-color:#0E5296;
-	border:1px solid black;
-}
-#link-div{
-	position:absolute;
-	width:100%;
-	height:50px;
-	left:-1px;
-	top:100px;
-	border:1px solid grey;
-	background-color:#000000;
-}
-a{
-	text-decoration:none;
-}
-#body-div{
-	position:absolute;
-	top:0px;
-	left:-1px;
-	right:0px;
-	bottom:0px;
-	width:100%;
-	height:auto;
-	height:100%;
-}
-#overlay{
-	position: relative;
-	width: 200px;
-	height: 100px;
-	text-align: center;
-	line-height: 100px;
-	background-color: #fff;
-	border: 1px solid #666;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 100px;
-	-webkit-box-shadow: 2px 2px 4px #888;
-	-moz-box-shadow: 2px 2px 4px #888;
-	box-shadow: 2px 2px 4px #888;
-	font-size:25px;
-}
-#cat_text{
-	position:relative;
-	width: 300px;
+map{
+	margin: 0 auto;
 }
 #linkedin{
 	position:absolute;
-	top:5px;
-	right:3%;
-	margin-right:1%;
+	bottom:5px;
+	right:55%;
+	margin:0 auto;
 }
 #twitter{
 	position:absolute;
-	top:5px;
-	right:1%;
+	bottom:5px;
+	right:52%;
 }
 #background{
-	/*position:absolute;*/
+	position:absolute;
 	width:100%;
-	height:100%;
-	bottom:0px;
 	max-width:100%;
+	height:100%;
+	left:0;
+	/*bottom:-8px;
+	top:-8px;*/
+	right:0;
 }
-#link_style{
-	margin-left:5px;
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
 }
+.container img.wide {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+.container img.tall {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+}​

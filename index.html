@@ -3,8 +3,16 @@
 		<link rel="stylesheet" type="text/css" href="body-style.css">
 	</head>
 	<body>
-			<img id="twitter" src="twitter.png"/>
-	     	<img id="background" src="nyc.jpg"/>
-	     	<img id="linkedin" src="linked.png"/>
+		<div class="container">
+			<map name="content_link">
+				<area shape="rect" coords="245,428,397,488" href="http://www.lego.com/en-us/">
+				<area shape="rect" coords="433,428,585,488" href="">
+				<area shape="rect" coords="628,428,780,488" href="">
+				<area shape="rect" coords="817,428,969,489" href="">
+			</map>
+			<img id="background" src="nyc.jpg" usemap="#content_link">
+			<a href="https://twitter.com/smokecode" target="_blank"><img id="twitter" src="twitter.png"/></a>
+	     	<a href="https://www.linkedin.com/in/ersanu" target="_blank"><img id="linkedin" src="linked.png"/></a>
+	     </div>
 	 </body>
 </html>
