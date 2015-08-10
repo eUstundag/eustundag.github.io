@@ -1,8 +1,6 @@
 html{
 	margin: 0 auto;
 	color:white;
-	background:"final_background.jpg";
-	font-family: Impact !important;
 }
 body{
 	margin: 0 auto;
@@ -12,18 +10,18 @@ body{
 	height:100%;
 	width:25%;
 	float:left;
-	background-color:black;
+	background-color:#000000;
 	text-align:center;
 }
 #About:hover{
-	background-color:#669999;
+	background-color:#A0FB71;
 }
 #Work{
 	display: inline-block;
 	height:100%;
 	width:25%;
 	float:left;
-	background-color:black;
+	background-color:#000000;
 	text-align:center;
 }
 #main_div_text{
@@ -34,7 +32,7 @@ body{
 	line-height: normal;      
 }
 #Work:hover{
-	background-color:#669999;
+	background-color:#58F8AB;
 }
 #Blog{
 	display: inline-block;
@@ -45,7 +43,7 @@ body{
 	text-align:center;
 }
 #Blog:hover{
-	background-color:#669999;
+	background-color:#12F6E9;
 }
 #Contact{
 	display: inline-block;
@@ -55,7 +53,7 @@ body{
 	text-align:center;
 }
 #Contact:hover{
-	background-color:#669999;
+	background-color:#2F8F75;
 }
 #link_style
 {
