@@ -1,77 +1,8 @@
-html{
-	margin: 0 auto;
-	color:white;
-}
-body{
-	margin: 0 auto;
-}
-#About{
-	display: inline-block;
-	height:100%;
-	width:25%;
-	float:left;
-	background-color:black;
-	text-align:center;
-}
-#About:hover{
-	background-color:#669999;
-}
-#Work{
-	display: inline-block;
-	height:100%;
-	width:25%;
-	float:left;
-	background-color:black;
-	text-align:center;
-}
-#main_div_text{
-	position:relative;
-	top:200px;
-	display:inline-block;
-	vertical-align: middle;
-	line-height: normal;      
-}
-#Work:hover{
-	background-color:#669999;
-}
-#Blog{
-	display: inline-block;
-	height:100%;
-	width:25%;
-	float:left;
-	background-color:black;
-	text-align:center;
-}
-#Blog:hover{
-	background-color:#669999;
-}
-#Contact{
-	display: inline-block;
-	height:100%;
-	width:25%;
-	background-color:black;
-	text-align:center;
-}
-#Contact:hover{
-	background-color:#669999;
-}
-#link_style
-{
-	color:#CCCCCC;
-}
-#logo
-{
+#test{
 	position:absolute;
-	background-color:black;
-	width:100%;
-	top:0px;
-	margin:0 auto;
-	padding: 0 auto;
-	z-index:0;
-	text-align:center;
-	opacity:0.5;
+	width: 20%;
+	height:20%;
 }
-#logo_span
-{
-	color:white;
+#test:hover{
+	opacity:0;
 }

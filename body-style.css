@@ -1,6 +1,7 @@
 html{
 	margin: 0 auto;
 	color:white;
+	background-color:black;
 }
 body{
 	margin: 0 auto;
@@ -16,6 +17,18 @@ body{
 #About:hover{
 	background-color:#A0FB71;
 }
+#about_sub_div{
+	position:absolute;
+	visibility: hidden;
+	height:50%;
+	left:2%;
+	color:black;
+	text-align: left;
+	bottom:10px;
+}
+#About:hover #about_sub_div{
+	visibility: visible;
+}
 #Work{
 	display: inline-block;
 	height:100%;
@@ -26,10 +39,10 @@ body{
 }
 #main_div_text{
 	position:relative;
-	top:200px;
+	top:100px;
 	display:inline-block;
-	vertical-align: middle;
-	line-height: normal;      
+	line-height:normal;
+	vertical-align:middle;
 }
 #Work:hover{
 	background-color:#58F8AB;
@@ -39,8 +52,18 @@ body{
 	height:100%;
 	width:25%;
 	float:left;
-	background-color:black;
 	text-align:center;
+}
+#blog_sub_div{
+	/*opacity:0;*/
+	position:relative;
+	visibility: hidden;
+	width:100%;
+}
+#Blog:hover #blog_sub_div{
+	/*opacity:1;*/
+	visibility: visible;
+	background-color:#12F6E9;
 }
 #Blog:hover{
 	background-color:#12F6E9;
@@ -55,10 +78,11 @@ body{
 #Contact:hover{
 	background-color:#2F8F75;
 }
-#link_style
+#blog_link
 {
-	color:#CCCCCC;
+	color:black;
 }
+
 #logo
 {
 	position:absolute;
