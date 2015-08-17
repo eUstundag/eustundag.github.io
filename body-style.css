@@ -39,7 +39,7 @@ body{
 }
 #main_div_text{
 	position:relative;
-	top:100px;
+	top:170px;
 	display:inline-block;
 	line-height:normal;
 	vertical-align:middle;
@@ -93,7 +93,6 @@ body{
 	padding: 0 auto;
 	z-index:0;
 	text-align:center;
-	opacity:0.5;
 }
 #logo_span
 {
