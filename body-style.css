@@ -22,15 +22,24 @@ body{
 	position:absolute;
 	visibility: hidden;
 	height:50%;
-	left:2%;
+	left:10%;
 	color:black;
-	text-align: left;
+	text-align: center;
 	bottom:10px;
 }
-#About:hover #about_sub_div{
+#Project:hover #project_sub_div{
 	visibility: visible;
 }
-#Work{
+#project_sub_div{
+	position:relative;
+	visibility: hidden;
+	height:5%;
+	left:25%;
+	color:black;
+	text-align: center;
+	bottom:5px;
+}
+#Project{
 	display: inline-block;
 	height:100%;
 	width:25%;
@@ -46,8 +55,8 @@ body{
 	line-height:normal;
 	vertical-align:middle;
 }
-#Work:hover{
-	background-color:#58F8AB;
+#About:hover #about_sub_div{
+	visibility: visible;
 }
 #Blog{
 	display: inline-block;

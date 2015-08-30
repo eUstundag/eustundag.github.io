@@ -1,0 +1,20 @@
+#header {
+    display: inline-block;
+    width: 100%;
+    top: 0;
+    height: 10%;
+    border-style: solid;
+    border-width: medium;
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#main {
+    display: inline-block;
+}
+
+.tab {
+    padding-left: 2em;
+    color: grey;
+}
