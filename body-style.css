@@ -1,7 +1,7 @@
 html{
 	margin: 0 auto;
-	color:white;
-	background-color:black;
+	color:black;
+	background-color:#F3F5F6;
 }
 body{
 	margin: 0 auto;
@@ -11,12 +11,11 @@ body{
 	height:100%;
 	width:25%;
 	float:left;
-	background-color:#000000;
 	text-align:center;
 	overflow:auto;
 }
 #About:hover{
-	background-color:#A0FB71;
+	background-color:#00E4FF;
 }
 #about_sub_div{
 	position:absolute;
@@ -39,12 +38,14 @@ body{
 	text-align: center;
 	bottom:5px;
 }
+#Project:hover{
+	background-color:#00B3FE;
+}
 #Project{
 	display: inline-block;
 	height:100%;
 	width:25%;
 	float:left;
-	background-color:#000000;
 	text-align:center;
 	overflow:auto;
 }
@@ -76,33 +77,29 @@ body{
 	overflow:auto;
 }
 #Blog:hover #blog_sub_div{
-	/*opacity:1;*/
-	visibility: visible;
-	background-color:#12F6E9;
+	visibility:visible;
 }
 #Blog:hover{
-	background-color:#12F6E9;
+	background-color:#0170FE;
 }
 #Contact{
 	display: inline-block;
 	height:100%;
 	width:25%;
-	background-color:black;
 	text-align:center;
 	overflow:auto;
 }
 #Contact:hover{
-	background-color:#2F8F75;
+	background-color:#0000FE;
 }
 #blog_link
 {
 	color:black;
 }
-
 #logo
 {
 	position:absolute;
-	background-color:black;
+	/*background-color:#F3F5F6;*/
 	width:100%;
 	top:0px;
 	margin:0 auto;
@@ -112,5 +109,5 @@ body{
 }
 #logo_span
 {
-	color:white;
+	color:black;
 }
