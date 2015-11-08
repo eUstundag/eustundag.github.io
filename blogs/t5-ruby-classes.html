@@ -1,0 +1,59 @@
+<head>
+  <title>tech blog phase 0 week 5</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog_style.css">
+</head>
+<style>
+.tab{
+  padding: 2em;
+}
+</style>
+<main>
+  <h1>Ruby - classes</h1>
+  <h2></h2>
+  <h3></h3>
+  <h5>August 9, 2015</h5>
+
+  <section>
+    <p>
+      We have now moved onto classes and slightly more complex data structures. We are set to tackle some more difficult challenges, requiring a snowballing effort of our previously gained knowledge. We were given tasks to work on nested data structures, tricky algorithms, and a bingo game to create.
+    </p>
+    <p>
+      This week has helped me a lot with just practicing on restructuring using classes and attributes. Take for example, we want to implement a warrior class.
+    </p>
+    <p>
+      <ul>
+        <li>class Warrior</li>
+        <li><span class="tab">attr_accessor :sword,:armor,:level</span></li>
+        <li><span class="tab">def initialize(sword = nil, armor = nil, level = nil)</span></li>
+        <li><span class="tab"><span class="tab">@sword = sword</span></span></li>
+        <li><span class="tab"><span class="tab">@armor = armor</span></span></li>
+        <li><span class="tab"><span class="tab">@level = nil</span></span></li>
+        <li><span class="tab">end</span></li>
+        <li>end</li>
+      </ul>
+    </p>
+    <p>
+      This class, can be accessed with: Arthur = Warrior.new. This will call upon our warrior, Arthur, who has no sword, no armor, and is a complete newbie. We can also assign him some gear, and assume that he has had some training and modify his level. Arthur.sword = "Excalibur". Arthur.armor = "Green Armour". And, we can't send Arthur out into the world without some training, so Arthur.level = 5.
+    </p>
+    <p>
+      puts "Arthur was about to retrieve his #{Arthur.sword} and with his #{Arthur.armor}, he felt ready for battle. It did not take long for Arthur to surpass his level #{#Arthur.level} status in the world."
+    </p>
+    <p> => Arthur was about to retrieve his Excalibur and with his Green Armour, he felt ready for battle. It did not take long for Arthur to surpass his level 5 status in the world.
+    </p>
+    <p>
+      We can do some other cool stuff such as adding a method to the class.
+      <ul>
+        <li>def sword_attack</li>
+        <li><span class="tab">rand(100)</span></li>
+        <li>end</li>
+      </ul>
+    </p>
+    <p>
+      We summon Arthur's amazing sword play abilities to defend our  lands and we do this by: Arthur.sword_attack. This will give us how much damage he inflicts every time sword_attack is called.
+    </p>
+    <p>
+      All in all, it has been another cool week at DBC. More fun next week!
+    </p>
+  </section>
+</main>

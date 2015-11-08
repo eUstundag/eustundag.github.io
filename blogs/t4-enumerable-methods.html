@@ -1,0 +1,36 @@
+<head>
+  <title>tech blog phase 0 week 4</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog_style.css">
+</head>
+
+<main>
+  <h1>Ruby - enum</h1>
+  <h2></h2>
+  <h3></h3>
+  <h5>August 2, 2015</h5>
+
+  <section>
+    <p>
+      The journey to Middle-Ruby has just begun, I feel we have not left the Shire just yet. This is not the furthest from home that I have been but I have learned a few cool things this week.
+	  </p>
+    <p>
+      This week was a set of fairly simple challenges. Basic utilization of hashes, arrays, and enumerators were on the menu. I wanted to go further into utilization of the .map method. This is a method embedded into Ruby which allows us to quickly cycle through a data structure, hash, array, etc. It allows us to modify the elements in this data structure as well. Once ruby completes "mapping" it returns a data structure with new values, based on whatever conditions we give it. Here's some basic examples.
+    </p>
+    <p>
+      <ul>
+        <li>arr = [1,2,3,4,5] #=> creates an array with integer values as such</li>
+        <li>arr.map{|x| x*x} #=> will multiply each element, in this case "x", and return the array as [1,4,9,16,25]</li>
+        <li>arr #=> [1,2,3,4,5] , the original arr value was not modified</li> 
+      </ul>
+    </p>
+    <p>
+      So, map method allows us to send a block of code, everything inside the curly brackets tells map what to do. We could extend this into more lines if we wish to do something little more complex, but generally we find you can knock out whats needed with one line.
+      If we were to run the same code with "map!" command, with the bang, it replaces the original reference of the variable arr. So we would have permanently changed the future of this variable, until the end of it's existance.
+    </p>
+    <p>
+      One really cool side note, I learned that the collect method is actually identical to map. You could use whichever method you like, if you feel the pseudocode sounds more a map or collect strategy. Next week...has begun!
+    </p>
+    
+  </section>
+</main>
