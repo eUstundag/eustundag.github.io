@@ -45,4 +45,7 @@ $(function(){
         }
     video.load();
   }
+  $('video').click(function(){
+    $('video').prop('muted', false); //mute
+  });
 });
