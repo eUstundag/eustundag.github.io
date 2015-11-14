@@ -4,14 +4,12 @@ body, html {
   margin:0;
   padding:0;
 }
-#video-container{
-  height:100%;
-  width:100%;
+html{
+  background-color: white;
 }
 #vid-div{
   position: fixed;
-  top: 0;
-  left: 0;
-  bottom:0;
-  right:0;
+  height:100%;
+  width:100%;
+  z-index: -100;
 }
