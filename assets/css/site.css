@@ -19,8 +19,9 @@ span:hover{
 #logo_container{
   position:absolute;
   display:inline-block;
-  left:0;
-  top:0;
+  left: 5px;
+  top: 5px;
+  z-index:2;
 }
 #logo_container img{
   height:25%;
@@ -39,22 +40,17 @@ span:hover{
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-
-#projects_container{
-  display: inline-block;
-  float: right;
-  width: auto;
-  height: auto;
+#background_img{
+  /*for browsers who do not support html5 - do those exist still?*/
+  position:fixed;
+  height:100%;
+  width:100%;
+  z-index:-1;
 }
 #contact_container{
+  position: absolute;
   display: inline-block;
-  float: right;
-  width: auto;
-  height: auto;
-}
-#blogs_container{
-  display: inline-block;
-  float: right;
-  width: auto;
-  height: auto;
+  right: 5px;
+  top: 5px;
+  z-index: 2;
 }
